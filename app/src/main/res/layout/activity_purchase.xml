@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="激活须知"
+        android:textSize="@dimen/text_large"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="一月激活码：5 RMB"
+        android:textSize="@dimen/text_medium"
+        android:textAlignment="center"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="永久激活码：39 RMB"
+        android:textSize="@dimen/text_medium"
+        android:textAlignment="center"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="索要激活码请加微信：kobehjkjay"
+        android:textSize="@dimen/text_medium"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="激活码每天限量100个 先到先得"
+        android:textSize="@dimen/text_medium"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="后期会加推更多劲爆内容及功能，详情请关注上述微信号"
+        android:textSize="@dimen/text_medium"
+        android:textAlignment="center"/>
+
+</LinearLayout>
